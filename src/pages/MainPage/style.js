@@ -12,6 +12,10 @@ export const Wrapper = styled.div`
   height: 1024px;
   background-color: var(--White);
   text-align: center;
+  @media all and (max-width: 375px){
+    width: 375px;
+    height: 844px;
+  }
 `;
 
 export const Header = styled.div`
@@ -22,11 +26,11 @@ export const Header = styled.div`
 export const HeaderLogo = styled.img`
   width: 107px;
   height: 20px;
-  margin-top: 40px;
+  margin-top: 45px;
 `;
 
 export const Content = styled.div`
-  margin-top: 60px;
+  margin-top: 70px;
 `;
 
 export const ContentTitle = styled.div`
@@ -47,9 +51,8 @@ export const ContentSubTitle = styled.div`
 export const ContentImg = styled.img`
   width: 350px;
   height: 320px;
-  background-color: var(--200);
   display: block;
-  margin: 30px auto 30px auto;
+  margin: 60px auto 70px auto;
 `;
 
 export const ContentButton = styled.button`
@@ -63,4 +66,11 @@ export const ContentButton = styled.button`
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+`;
+
+export const AdBox = styled.div`
+  margin: 60px auto 0 auto;
+  background-color: var(--100);
+  width: 640px;
+  height: 100px;
 `;

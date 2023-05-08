@@ -1,5 +1,6 @@
 import './style';
 import {
+  AdBox,
   Container,
   Content,
   ContentButton,
@@ -11,6 +12,8 @@ import {
   Wrapper,
 } from './style.js';
 
+
+
 const MyComponent = () => {
     return (
       <Container>
@@ -21,9 +24,11 @@ const MyComponent = () => {
           <Content>
             <ContentTitle>나랑 잘 어울리는 술은? 🧐</ContentTitle>
             <ContentSubTitle>술 MBTI 테스트</ContentSubTitle>
-            <ContentImg/>
+            <ContentImg src='/src/assets/mbtiMain_img.png' alt='mbti-Main'/>
             <ContentButton>시작하기!</ContentButton>
           </Content>
+          <AdBox>
+          </AdBox>
         </Wrapper>
       </Container>
     );
