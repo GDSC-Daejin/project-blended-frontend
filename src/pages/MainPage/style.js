@@ -15,6 +15,9 @@ export const Wrapper = styled.div`
   @media all and (max-width: 375px){
     width: 375px;
     height: 844px;
+    @media all and (max-height: 677px){
+      height: fit-content;
+    }
   }
 `;
 
@@ -30,7 +33,7 @@ export const HeaderLogo = styled.img`
 `;
 
 export const Content = styled.div`
-  margin-top: 50px;
+  margin-top: 40px;
 `;
 
 export const ContentTitle = styled.div`
@@ -83,5 +86,8 @@ export const AdBox = styled.div`
   @media all and (max-width: 375px){
     width: 100%;
     margin-top: 92px;
+    @media all and (max-height: 677px){
+      display: none;
+    }
   }
 `;
