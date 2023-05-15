@@ -30,7 +30,7 @@ export const HeaderLogo = styled.img`
 `;
 
 export const Content = styled.div`
-  margin-top: 70px;
+  margin-top: 50px;
 `;
 
 export const ContentTitle = styled.div`
@@ -46,6 +46,9 @@ export const ContentSubTitle = styled.div`
   font-weight: 800;
   color: var(--900);
   margin-top: 15px;
+  @media all and (max-width: 375px){
+    font-size: 28px;
+  }
 `;
 
 export const ContentImg = styled.img`
@@ -53,6 +56,10 @@ export const ContentImg = styled.img`
   height: 320px;
   display: block;
   margin: 60px auto 70px auto;
+  @media all and (max-width: 375px){
+    width: 320px;
+    height: 251px;
+  }
 `;
 
 export const ContentButton = styled.button`
@@ -73,4 +80,8 @@ export const AdBox = styled.div`
   background-color: var(--100);
   width: 640px;
   height: 100px;
+  @media all and (max-width: 375px){
+    width: 100%;
+    margin-top: 92px;
+  }
 `;
