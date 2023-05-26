@@ -12,7 +12,7 @@ function App() {
       <Reset />
       <Routes>
         <Route path='/' element={<MainPage />} />
-        <Route path='/question' element={<QuestionPage />} />
+        <Route exact path='/question' element={<QuestionPage />} />
       </Routes>
     </BrowserRouter>
   )
