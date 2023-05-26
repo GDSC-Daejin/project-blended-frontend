@@ -11,7 +11,7 @@ function App() {
       element: <MainPage />,
     },
     {
-      path: "question",
+      path: "https://blended-mbti.netlify.app/question",
       element: <QuestionPage />,
     },
   ]);
