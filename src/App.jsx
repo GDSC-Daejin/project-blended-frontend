@@ -1,20 +1,27 @@
 import './App.css'
 import MainPage from './pages/MainPage/index.jsx';
 import { Reset } from 'styled-reset';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import QuestionPage from './pages/QuestionPage/index.jsx';
-// import firebase_config from '/firebase_config.js';
 
 function App() {
-    // console.log(firebase_config)
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <MainPage />,
+    },
+    {
+      path: "question",
+      element: <QuestionPage />,
+    },
+  ]);
+
+
   return (
-    <BrowserRouter>
+    <>
       <Reset />
-      <Routes>
-        <Route path='/' element={<MainPage />} />
-        <Route exact path='/question' element={<QuestionPage />} />
-      </Routes>
-    </BrowserRouter>
+      <RouterProvider router={router} />
+    </>
   )
 }
 
