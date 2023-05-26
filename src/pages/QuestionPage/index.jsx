@@ -8,6 +8,7 @@ import {
 } from '../MainPage/style.js';
 import { AnswerBox, AnswerBoxWrapper, AnswerText, ProgressBar, ProgressBarWrapper, QuestionText } from './style.js';
 import Logo from '../../../assets/blended_logo.svg';
+import { Link } from 'react-router-dom';
 
 
 const MyComponent = () => {
@@ -15,7 +16,9 @@ const MyComponent = () => {
       <Container>
         <Wrapper>
           <Header>
-            <HeaderLogo src={Logo} alt='blended_logo' />
+            <Link to={`/`}>
+              <HeaderLogo src={Logo} alt='blended_logo'/>
+            </Link>
           </Header>
           <ProgressBarWrapper>
             <ProgressBar width={(1/10)*100 + "%"} />

@@ -13,6 +13,7 @@ import {
 } from './style.js';
 import Logo from '/assets/blended_logo.svg';
 import MbtiMain from '/assets/mbtiMain_img.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -21,7 +22,9 @@ const MyComponent = () => {
       <Container>
         <Wrapper>
           <Header>
-            <HeaderLogo src={Logo} alt='blended_logo' />
+            <Link to={`/`}>
+              <HeaderLogo src={Logo} alt='blended_logo'/>
+            </Link>
           </Header>
           <Content>
             <ContentTitle>나랑 잘 어울리는 술은? 🧐</ContentTitle>
