@@ -27,7 +27,10 @@ const MyComponent = () => {
             <ContentTitle>나랑 잘 어울리는 술은? 🧐</ContentTitle>
             <ContentSubTitle>술 MBTI 테스트</ContentSubTitle>
             <ContentImg src={MbtiMain} alt='mbti-Main'/>
-            <ContentButton>시작하기!</ContentButton>
+            <ContentButton onClick={()=>{
+              window.location.href='/question'
+            }
+            }>시작하기!</ContentButton>
           </Content>
           <AdBox>
           </AdBox>

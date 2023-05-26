@@ -4,12 +4,13 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   height: 100%;
+  user-select: none;
 `;
 
 export const Wrapper = styled.div`
   margin: 0 auto;
   width: 720px;
-  height: 1024px;
+  height: 100vh;
   background-color: var(--White);
   text-align: center;
   @media all and (max-width: 375px){
@@ -58,10 +59,10 @@ export const ContentImg = styled.img`
   width: 350px;
   height: 320px;
   display: block;
-  margin: 60px auto 70px auto;
+  margin: 60px auto 74px auto;
   @media all and (max-width: 375px){
     width: 320px;
-    height: 251px;
+    height: 250px;
   }
 `;
 
@@ -76,6 +77,7 @@ export const ContentButton = styled.button`
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+  margin-bottom: 54px;
 `;
 
 export const AdBox = styled.div`

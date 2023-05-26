@@ -12,5 +12,7 @@
   --White: #FFFFFF;
   --Black: #000000;
 
+  font-family: Pretendard,sans-serif;
+
   background-color: var(--100) ;
 }
