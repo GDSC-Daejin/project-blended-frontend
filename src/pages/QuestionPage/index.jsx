@@ -9,9 +9,25 @@ import {
 import { AnswerBox, AnswerBoxWrapper, AnswerText, ProgressBar, ProgressBarWrapper, QuestionText } from './style.js';
 import Logo from '../../../assets/blended_logo.svg';
 import { Link } from 'react-router-dom';
-
+import { useState } from 'react';
+import testData from './question.json';
 
 const MyComponent = () => {
+
+  const [questionNum, setQuestionNum] = useState(0);
+  const [answerArray, setAnswerArray] = useState([]);
+
+  const answerClick1 = () => {
+    setAnswerArray([...answerArray, testData[questionNum].answer[0].type]);
+    setQuestionNum((prev) => prev + 1);
+  }
+  console.log(answerArray);
+
+  const answerClick2 = () => {
+    setAnswerArray([...answerArray, testData[questionNum].answer[1].type]);
+    setQuestionNum((prev) => prev + 1);
+  }
+
   return (
       <Container>
         <Wrapper>
@@ -21,19 +37,28 @@ const MyComponent = () => {
             </Link>
           </Header>
           <ProgressBarWrapper>
-            <ProgressBar width={(1/10)*100 + "%"} />
+            <ProgressBar width={((questionNum + 1)/(testData.length + 1))*100 + "%"} />
           </ProgressBarWrapper>
-          <Content>
-            <QuestionText>처음 들어보는 술이 메뉴판에 있다 <br/> 어떤거 먹을래?</QuestionText>
-            <AnswerBoxWrapper>
-              <AnswerBox>
-                <AnswerText>구관이 명관. 그래도 늘 먹던걸로 주문한다.</AnswerText>
-              </AnswerBox>
-              <AnswerBox>
-                <AnswerText>오! 이건 뭐지? 새로운걸로 도전해본다.</AnswerText>
-              </AnswerBox>
-            </AnswerBoxWrapper>
-          </Content>
+          {
+            questionNum === testData.length ? (
+              <Content>
+                테스트 끝, 결과는 {answerArray} 입니다.
+              </Content>
+            ) : <Content>
+              <QuestionText>{testData[questionNum].question}</QuestionText>
+              <AnswerBoxWrapper>
+                <AnswerBox onClick={answerClick1}>
+                  <AnswerText>{testData[questionNum].answer[0].answer1}</AnswerText>
+                  {/*<AnswerText>[{testData[questionNum].answer[0].type}]</AnswerText>*/}
+                </AnswerBox>
+                <AnswerBox onClick={answerClick2}>
+                  <AnswerText>{testData[questionNum].answer[1].answer2}</AnswerText>
+                  {/*<AnswerText>[{testData[questionNum].answer[1].type}]</AnswerText>*/}
+                </AnswerBox>
+              </AnswerBoxWrapper>
+            </Content>
+          }
+
           <AdBox>
           </AdBox>
         </Wrapper>

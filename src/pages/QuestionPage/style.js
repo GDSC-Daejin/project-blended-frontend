@@ -18,6 +18,7 @@ export const ProgressBar = styled.div`
 `;
 
 export const QuestionText = styled.div`
+  padding: 0 70px;
   font-size: 18px;
   font-weight: 700;
   color: var(--900);
@@ -45,4 +46,6 @@ export const AnswerText = styled.div`
   font-weight: 500;
   text-align: center;
   color: var(--900);
+  padding: 0 40px;
+  line-height: 22px;
 `;
