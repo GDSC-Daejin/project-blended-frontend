@@ -4,7 +4,8 @@ import styled from 'styled-components';
 export const ProgressBarWrapper = styled.div`
   margin: 0 auto;
   background-color: #eee;
-  width: 640px;
+  //width: 640px;
+  width: 90%;
   height: 6px;
   display: flex;
   align-items: center;

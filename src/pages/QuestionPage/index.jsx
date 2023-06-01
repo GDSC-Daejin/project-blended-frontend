@@ -58,9 +58,8 @@ const MyComponent = () => {
               </AnswerBoxWrapper>
             </Content>
           }
-
-          <AdBox>
-          </AdBox>
+          {/*<AdBox>*/}
+          {/*</AdBox>*/}
         </Wrapper>
       </Container>
   );

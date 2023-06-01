@@ -35,8 +35,8 @@ const MyComponent = () => {
             }
             }>시작하기!</ContentButton>
           </Content>
-          <AdBox>
-          </AdBox>
+          {/*<AdBox>*/}
+          {/*</AdBox>*/}
         </Wrapper>
       </Container>
     );

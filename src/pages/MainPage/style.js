@@ -15,7 +15,8 @@ export const Wrapper = styled.div`
   text-align: center;
   @media all and (max-width: 375px){
     width: 375px;
-    height: 844px;
+    //height: 844px
+    height: 100vh;
     @media all and (max-height: 677px){
       height: fit-content;
     }
