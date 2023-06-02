@@ -57,13 +57,13 @@ export const ContentSubTitle = styled.div`
 `;
 
 export const ContentImg = styled.img`
-  width: 350px;
-  height: 320px;
+  //width: 350px;
+  //height: 320px;
   display: block;
   margin: 60px auto 74px auto;
   @media all and (max-width: 375px){
-    width: 320px;
-    height: 250px;
+    //width: 320px;
+    //height: 250px;
   }
 `;
 
