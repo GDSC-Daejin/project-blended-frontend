@@ -13,6 +13,7 @@ import {
 } from './style.js';
 import Logo from '/assets/blended_logo.svg';
 import MbtiMain from '/assets/mbtiMain_img.png';
+import ogImg from '/assets/pgImg.png';
 import { Link } from 'react-router-dom';
 
 
@@ -27,6 +28,8 @@ const MyComponent = () => {
             </Link>
           </Header>
           <Content>
+            {/*오픈그래프 이미지 (임시)*/}
+            <img style={{display: 'none'}} src={ogImg} alt='og_image'/>
             <ContentTitle>나랑 잘 어울리는 술은? 🧐</ContentTitle>
             <ContentSubTitle>술 MBTI 테스트</ContentSubTitle>
             <ContentImg src={MbtiMain} alt='mbti-Main'/>
