@@ -37,9 +37,8 @@ const MyComponent = () => {
               window.location.href='/question'
             }
             }>시작하기!</ContentButton>
+            <AdBox />
           </Content>
-          {/*<AdBox>*/}
-          {/*</AdBox>*/}
         </Wrapper>
       </Container>
     );

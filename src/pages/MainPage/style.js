@@ -3,39 +3,39 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  height: 100%;
+  height: 100vh;
   user-select: none;
 `;
 
 export const Wrapper = styled.div`
   margin: 0 auto;
   width: 720px;
-  height: 100vh;
+  height: 100%;
   background-color: var(--White);
   text-align: center;
-  @media all and (max-width: 375px){
-    width: 375px;
-    //height: 844px
+  @media all and (max-width: 720px) {
     height: 100vh;
-    @media all and (max-height: 677px){
-      height: fit-content;
-    }
   }
 `;
 
 export const Header = styled.div`
   width: 100%;
-  height: 100px;
 `;
 
 export const HeaderLogo = styled.img`
   width: 107px;
   height: 20px;
-  margin-top: 45px;
+  margin: 40px 0 80px 0;
+  @media all and (min-width: 720px) {
+    margin: 40px 0 111px 0;
+  }
 `;
 
 export const Content = styled.div`
-  margin-top: 40px;
+    height: 424px;
+  @media all and (min-width: 720px) {
+    height: 430px;
+  }
 `;
 
 export const ContentTitle = styled.div`
@@ -43,6 +43,7 @@ export const ContentTitle = styled.div`
   font-size: 18px;
   font-weight: 500;
   color: var(--Black);
+  margin: 0 0 10px 0;
 `;
 
 export const ContentSubTitle = styled.div`
@@ -50,20 +51,13 @@ export const ContentSubTitle = styled.div`
   font-size: 32px;
   font-weight: 800;
   color: var(--900);
-  margin-top: 15px;
-  @media all and (max-width: 375px){
-    font-size: 28px;
-  }
 `;
 
 export const ContentImg = styled.img`
-  //width: 350px;
-  //height: 320px;
   display: block;
-  margin: 60px auto 74px auto;
-  @media all and (max-width: 375px){
-    //width: 320px;
-    //height: 250px;
+  margin: 39px auto 87px auto;
+  @media all and (min-width: 720px) {
+    margin: 26px auto 74px auto;
   }
 `;
 
@@ -78,19 +72,21 @@ export const ContentButton = styled.button`
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-  margin-bottom: 54px;
+  margin: 0 0 96px 0;
+  @media all and (min-width: 720px) {
+    margin: 0 0 122px 0;
+  }
 `;
 
 export const AdBox = styled.div`
-  margin: 60px auto 0 auto;
-  background-color: var(--100);
-  width: 640px;
+  margin: 0 auto 0 auto;
+  background-color: var(--200);
+  width: 100%;
   height: 100px;
-  @media all and (max-width: 375px){
-    width: 100%;
-    margin-top: 92px;
-    @media all and (max-height: 677px){
-      display: none;
-    }
+  @media all and (min-width: 720px) {
+    width: 640px;
+  }
+  @media all and (max-height: 677px) {
+    display: none;
   }
 `;
