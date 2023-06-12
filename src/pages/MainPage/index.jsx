@@ -13,7 +13,7 @@ import {
 } from './style.js';
 import Logo from '/assets/blended_logo.svg';
 import MbtiMain from '/assets/mbtiMain_img.png';
-import ogImg from '/assets/pgImg.png';
+import ogImg from '/assets/og_img.jpg';
 import { Link } from 'react-router-dom';
 
 
