@@ -18,10 +18,12 @@ function App() {
 
 
   return (
-    <>
+    <div style={{
+      minHeight: '100vh',
+    }}>
       <Reset />
       <RouterProvider router={router} />
-    </>
+    </div>
   )
 }
 

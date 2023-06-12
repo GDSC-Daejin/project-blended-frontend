@@ -3,16 +3,19 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  //height: 100vh;
+  height: 100%;
   user-select: none;
 `;
 
 export const Wrapper = styled.div`
+  min-height: calc(100vh - 40px);
   margin: 0 auto;
   width: 720px;
   height: 100%;
   background-color: var(--White);
   text-align: center;
+  padding-block: 20px;
   @media all and (max-width: 720px) {
     height: 100vh;
   }
@@ -25,17 +28,17 @@ export const Header = styled.div`
 export const HeaderLogo = styled.img`
   width: 107px;
   height: 20px;
-  margin: 40px 0 80px 0;
+  margin: 20px 0 80px 0;
   @media all and (min-width: 720px) {
-    margin: 40px 0 111px 0;
+    margin: 20px 0 111px 0;
   }
 `;
 
 export const Content = styled.div`
-    height: 424px;
-  @media all and (min-width: 720px) {
-    height: 430px;
-  }
+    //height: 424px;
+  //@media all and (min-width: 720px) {
+  //  height: 430px;
+  //}
 `;
 
 export const ContentTitle = styled.div`
