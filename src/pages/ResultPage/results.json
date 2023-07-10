@@ -1,44 +1,66 @@
-[
-  {
-    "id": 1,
-    "option": "ENFJ",
-    "name": "레드 와인",
-    "content": "레드 와인은 풍미가 풍부하고 복잡한 와인으로 따뜻하고 동점심 많은 ENFJ에게 잘 어울립니다."
+{
+  "ENFJ": {
+    "liquor": "숙취해소제",
+    "text": "숙취해소재"
   },
-  {
-    "id": 2,
-    "option": "ENTJ",
-    "name": "버번 위스키",
-    "content": "버번은 풍미가 강하고 풍부한 술로 자신감있고 목표지향적인 ENTJ에게 잘 어울립니다."
+  "INFJ": {
+    "liquor": "레드 와인 / 화이트 와인",
+    "text": "와인"
   },
-  {
-    "id": 3,
-    "option": "ENFP",
-    "name": "피트 위스키",
-    "content": "피트 위스키"
+  "ENFP": {
+    "liquor": "막걸리",
+    "text": "막걸리"
   },
-  {
-    "id": 4,
-    "option": "ENTP",
-    "name": "에일 맥주",
-    "content": "버번은 풍미가 강하고 풍부한 술로 자신감있고 목표지향적인 ENTJ에게 잘 어울립니다."
+  "INFP": {
+    "liquor": "논알콜",
+    "text": "논알콜"
   },
-  {
-    "id": 5,
-    "option": "ESFP",
-    "name": "화이트 와인",
-    "content": "버번은 풍미가 강하고 풍부한 술로 자신감있고 목표지향적인 ENTJ에게 잘 어울립니다."
+  "ENTJ": {
+    "liquor": "버번 위스키",
+    "text": "위스키"
   },
-  {
-    "id": 6,
-    "option": "ESFJ",
-    "name": "사케",
-    "content": "버번은 풍미가 강하고 풍부한 술로 자신감있고 목표지향적인 ENTJ에게 잘 어울립니다."
+  "INTJ": {
+    "liquor": "피트 위스키",
+    "text": "위스키"
   },
-  {
-    "id": 7,
-    "option": "ESTP",
-    "name": "라거 맥주",
-    "content": "버번은 풍미가 강하고 풍부한 술로 자신감있고 목표지향적인 ENTJ에게 잘 어울립니다."
+  "ENTP": {
+    "liquor": "럼",
+    "text": "럼"
+  },
+  "INTP": {
+    "liquor": "고량주",
+    "text": "고량주"
+  },
+  "ESFJ": {
+    "liquor": "샴페인",
+    "text": "샴페인"
+  },
+  "ISFJ": {
+    "liquor": "소주",
+    "text": "소주"
+  },
+  "ESFP": {
+    "liquor": "에일",
+    "text": "에일"
+  },
+  "ISFP": {
+    "liquor": "브랜디",
+    "text": "브랜디"
+  },
+  "ESTJ": {
+    "liquor": "쉐리 위스키",
+    "text": "위스키"
+  },
+  "ISTJ": {
+    "liquor": "사케",
+    "text": "사케"
+  },
+  "ESTP": {
+    "liquor": "흑맥주",
+    "text": "흑맥주"
+  },
+  "ISTP": {
+    "liquor": "라거",
+    "text": "라거"
   }
-]
+}

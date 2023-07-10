@@ -29,6 +29,7 @@ export const HeaderLogo = styled.img`
   width: 107px;
   height: 20px;
   margin: 20px 0 80px 0;
+  cursor: pointer;
   @media all and (min-width: 720px) {
     margin: 20px 0 111px 0;
   }
