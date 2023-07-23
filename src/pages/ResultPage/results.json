@@ -1,66 +1,82 @@
 {
   "ENFJ": {
     "liquor": "숙취해소제",
-    "text": "숙취해소재"
+    "text": "나랑 있으면 숙취는 걱정마",
+    "img" : "./result/hangovercure.svg"
   },
   "INFJ": {
     "liquor": "레드 와인 / 화이트 와인",
-    "text": "와인"
+    "text": "와인",
+    "img" : "./result/whiskey.png"
   },
   "ENFP": {
     "liquor": "막걸리",
-    "text": "막걸리"
+    "text": "청량하고 시원한 매력을 가진",
+    "img" : "./result/makgeolli.svg"
   },
   "INFP": {
     "liquor": "논알콜",
-    "text": "논알콜"
+    "text": "논알콜",
+    "img" : "./result/nonalcoholic.svg"
   },
   "ENTJ": {
     "liquor": "버번 위스키",
-    "text": "위스키"
+    "text": "강하고 풍부한 맛의 소유자",
+    "img" : "./result/whiskey.png"
   },
   "INTJ": {
     "liquor": "피트 위스키",
-    "text": "위스키"
+    "text": "위스키",
+    "img" : "./result/whiskey.png"
   },
   "ENTP": {
     "liquor": "럼",
-    "text": "럼"
+    "text": "럼",
+    "img" : "./result/whiskey.png"
   },
   "INTP": {
     "liquor": "고량주",
-    "text": "고량주"
+    "text": "고량주",
+    "img" : "./result/whiskey.png"
   },
   "ESFJ": {
     "liquor": "샴페인",
-    "text": "샴페인"
+    "text": "샴페인",
+    "img" : "./result/whiskey.png"
   },
   "ISFJ": {
     "liquor": "소주",
-    "text": "소주"
+    "text": "소주",
+    "img" : "./result/whiskey.png"
   },
   "ESFP": {
-    "liquor": "에일",
-    "text": "에일"
+    "liquor": "에일 맥주",
+    "text": "밝고 긍정적인 향을 내는",
+    "img" : "./result/yaleBeer.svg"
   },
   "ISFP": {
     "liquor": "브랜디",
-    "text": "브랜디"
+    "text": "여유로운 감성의 소유자",
+    "img" : "./result/brandy.svg"
   },
   "ESTJ": {
     "liquor": "쉐리 위스키",
-    "text": "위스키"
+    "text": "위스키",
+    "img" : "./result/whiskey.png"
   },
   "ISTJ": {
     "liquor": "사케",
-    "text": "사케"
+    "text": "차분하고 깔끔한 매력을 가진",
+    "img" : "./result/sake.svg"
   },
   "ESTP": {
     "liquor": "흑맥주",
-    "text": "흑맥주"
+    "text": "흑맥주",
+    "img" : "./result/whiskey.png"
   },
   "ISTP": {
     "liquor": "라거",
-    "text": "라거"
+    "text": "라거",
+    "img" : "./result/whiskey.png"
   }
 }
