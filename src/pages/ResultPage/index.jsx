@@ -1,5 +1,14 @@
 import results from './results.json';
-import { ResultBox, ResultImg, ResultSubText, ResultText, ResultTitle } from './style.js';
+import {
+  AppButton,
+  BottomBox, ButtonWrapper,
+  InstaButton,
+  ResultBox,
+  ResultImg,
+  ResultSubText,
+  ResultText,
+  ResultTitle,
+} from './style.js';
 
 // eslint-disable-next-line react/prop-types
 const MyComponent = ({ data }) => {
@@ -63,6 +72,19 @@ const MyComponent = ({ data }) => {
           • 창의적이며 전략적인 사고가 빠른 편이에요
         </div>
       </ResultBox>
+      <BottomBox>
+        <div>
+          이 술에 대해 더 알아보고 싶어요!
+        </div>
+        <ButtonWrapper>
+          <AppButton>
+            블렌디드에서 구경하기
+          </AppButton>
+          <InstaButton>
+            인스타그램 스토리 공유
+          </InstaButton>
+        </ButtonWrapper>
+      </BottomBox>
     </div>
   );
 };

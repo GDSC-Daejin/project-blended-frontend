@@ -38,3 +38,28 @@ export const ResultBox = styled.div`
   color: var(--800);
   line-height: 150%;
 `;
+
+export const BottomBox = styled.div`
+  position: fixed;
+  height: 200px;
+  bottom: 0;
+  background-color: #2A2A2A;
+`;
+
+export const ButtonWrapper = styled.div`
+`;
+
+export const AppButton = styled.button`
+  width: 350px;
+  height: 50px;
+  background-color: var(--900);
+  display: block;
+  margin: 10px 0 10px 0;
+`;
+
+export const InstaButton = styled.button`
+  width: 350px;
+  height: 50px;
+  background-color: var(--700);
+  display: block;
+`;
