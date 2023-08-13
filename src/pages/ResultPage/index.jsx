@@ -1,13 +1,13 @@
 import results from './results.json';
 import {
   AppButton,
-  BottomBox, ButtonWrapper,
+  BottomBox, ButtonWrapper, Container,
   InstaButton,
   ResultBox,
   ResultImg,
   ResultSubText,
   ResultText,
-  ResultTitle,
+  ResultTitle, Wrapper,
 } from './style.js';
 
 // eslint-disable-next-line react/prop-types
@@ -32,10 +32,15 @@ const MyComponent = ({ data }) => {
   const mbtiLiquor = results[finalMBTI].liquor;
   const mbtiText = results[finalMBTI].text;
   const mbtiImg = results[finalMBTI].img;
+  const mbtiContent1 = results[finalMBTI].content1;
+  const mbtiContent2 = results[finalMBTI].content2;
+  const mbtiContent3 = results[finalMBTI].content3;
+  const mbtiContent4 = results[finalMBTI].content4;
 
 
   return (
-    <div>
+    <Container>
+      <Wrapper>
       <ResultTitle>
         당신에게 잘 맞는 술은?
       </ResultTitle>
@@ -48,30 +53,21 @@ const MyComponent = ({ data }) => {
       <ResultImg src={mbtiImg} alt="img"/>
       <ResultBox>
         <div>
-          • 창의적이며 전략적인 사고가 빠른 편이에요
+          • {mbtiContent1}
         </div>
         <div>
-          • 창의적이며 전략적인 사고가 빠른 편이에요
+          • {mbtiContent2}
         </div>
         <div>
-          • 창의적이며 전략적인 사고가 빠른 편이에요
+          • {mbtiContent3}
         </div>
         <div>
-          • 창의적이며 전략적인 사고가 빠른 편이에요
-        </div>
-        <div>
-          • 창의적이며 전략적인 사고가 빠른 편이에요
-        </div>
-        <div>
-          • 창의적이며 전략적인 사고가 빠른 편이에요
-        </div>
-        <div>
-          • 창의적이며 전략적인 사고가 빠른 편이에요
-        </div>
-        <div>
-          • 창의적이며 전략적인 사고가 빠른 편이에요
+          • {mbtiContent4}
         </div>
       </ResultBox>
+        <ResultBox>
+
+        </ResultBox>
       <BottomBox>
         <div>
           이 술에 대해 더 알아보고 싶어요!
@@ -85,7 +81,8 @@ const MyComponent = ({ data }) => {
           </InstaButton>
         </ButtonWrapper>
       </BottomBox>
-    </div>
+      </Wrapper>
+    </Container>
   );
 };
 

@@ -1,5 +1,26 @@
 import styled from 'styled-components';
 
+export const Container = styled.div`
+  width: 100%;
+  //height: 100vh;
+  height: 100%;
+  user-select: none;
+`;
+
+export const Wrapper = styled.div`
+  min-height: calc(100vh - 40px);
+  margin: 0 auto;
+  width: 720px;
+  height: 100%;
+  background-color: var(--White);
+  text-align: center;
+  padding-block: 20px;
+  @media all and (max-width: 720px) {
+    height: 100vh;
+    width: 100%;
+  }
+`;
+
 export const ResultTitle = styled.div`
   font-family: Pretendard,sans-serif;
   font-weight: 500;
@@ -28,38 +49,73 @@ export const ResultImg = styled.img`
 
 export const ResultBox = styled.div`
   width: 310px;
-  height: 190px;
+  //height: 390px;
+  height: fit-content;
   background: #F8F8F8;
   border-radius: 12px;
   margin: 15px auto;
-  padding: 35px 40px;
+  padding: 35px 45px;
   font-size: 16px;
   font-weight: 500;
   color: var(--800);
-  line-height: 150%;
+  line-height: 170%;
+  text-align: left;
 `;
 
 export const BottomBox = styled.div`
   position: fixed;
   height: 200px;
+  width: 720px;
   bottom: 0;
-  background-color: #2A2A2A;
+  background-color: #FFFFFF;
+  padding: 20px 0 0 0;
+  @media all and (max-width: 720px) {
+    width: 100%;
+  }
+`;
+
+export const BottomBoxText = styled.div`
+  font-family: Pretendard,sans-serif;
+  //color: var(--800);
+  color: #2A2A2A;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
 `;
 
 export const ButtonWrapper = styled.div`
+
 `;
 
 export const AppButton = styled.button`
   width: 350px;
   height: 50px;
-  background-color: var(--900);
+  //background-color: var(--900);
+  background-color: #111;
+  color: #FFFFFF;
+  border-radius: 12px;
   display: block;
-  margin: 10px 0 10px 0;
+  border-style: none;
+  margin: 10px auto 30px auto;
+  font-family: Pretendard,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
 `;
 
 export const InstaButton = styled.button`
   width: 350px;
   height: 50px;
-  background-color: var(--700);
+  //background-color: var(--700);
+  background-color: #777;
+  color: #FFFFFF;
   display: block;
+  border-radius: 12px;
+  border-style: none;
+  margin: 10px auto 0 auto;
+  font-family: Pretendard,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
 `;
