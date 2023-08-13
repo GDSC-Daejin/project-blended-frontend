@@ -100,8 +100,6 @@ const MyComponent = () => {
               </Content>
             </>
         }
-        {/*<AdBox>*/}
-        {/*</AdBox>*/}
       </Wrapper>
     </Container>
   );

@@ -18,6 +18,7 @@ export const Wrapper = styled.div`
   padding-block: 20px;
   @media all and (max-width: 720px) {
     height: 100vh;
+    width: 100%;
   }
 `;
 
@@ -28,7 +29,7 @@ export const Header = styled.div`
 export const HeaderLogo = styled.img`
   width: 107px;
   height: 20px;
-  margin: 20px 0 80px 0;
+  margin: 20px 0 60px 0;
   cursor: pointer;
   @media all and (min-width: 720px) {
     margin: 20px 0 111px 0;
