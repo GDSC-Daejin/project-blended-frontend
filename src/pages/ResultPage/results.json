@@ -7,17 +7,23 @@
     "content2" : "사람들과 만나고 활동을 하며 에너지를 얻어요.",
     "content3" : "불편한 상황을 완화하며 협력을 통해 리더의 역할을 해요.",
     "content4" : "따뜻한 성격으로 주변 사람들에게 긍정적인 영향을 줘요.",
-    "match" : "INFP, ISFP"
+    "match1" : "논알콜",
+    "match2" : "브랜디",
+    "match1Img" : "./result/nonalcoholic.svg ",
+    "match2Img" : "./result/brandy.svg"
   },
   "INFJ": {
-    "liquor": "레드 와인 / 화이트 와인",
-    "text": "와인",
+    "liquor": "와인",
+    "text": "감성을 이끌어내주는 마법사",
     "img" : "./result/wine.svg",
     "content1" : "타인의 감정을 이해하고 공감하는 능력이 뛰어나요.",
     "content2" : "많은 노력과 시간을 들여 자기를 탐구하고 내적 성장에 많은 노력을 해요.",
     "content3" : "사람들의 필요를 도와주는 것을 좋아해 따뜻하고 적극적인 도움을 줘요.",
     "content4" : "오랜 시간과 헌신으로 만들어지는 와인은 진정성과 신뢰성을 중요시해요.",
-    "match" : "ENFP, ENTP"
+    "match1" : "막걸리",
+    "match2" : "럼",
+    "match1Img" : "./result/makgeolli.svg",
+    "match2Img" : "./result/rum.svg"
   },
   "ENFP": {
     "liquor": "막걸리",
@@ -27,17 +33,23 @@
     "content2": "뜨거운 물로 술의 강도와 맛을 조절하며 즉흥적으로 작신의 특징을 바꿀 수 있어요.",
     "content3": "주변에 긍정적인 에너지를 전달해요.",
     "content4": "부드러운 맛과 산미가 어우러지며 감정 기복이 커요.",
-    "match": "INFJ, INTJ"
+    "match1" : "와인",
+    "match2" : "피트 위스키",
+    "match1Img" : "./result/wine.svg",
+    "match2Img" : "./result/petewhiskey.svg"
   },
   "INFP": {
     "liquor": "논알콜",
-    "text": "논알콜",
+    "text": "무해한 매력의 소유자",
     "img" : "./result/nonalcoholic.svg",
     "content1" : "내적으로 누구보다 풍부한 감정을 가져요.",
     "content2" : "다양한 재료와 조합을 활용해 창의적이고 상상력을 발휘해요.",
     "content3" : "자기 이해를 통해 성장하려는 욕구가 있어요.",
     "content4" : "나와 타인의 내면을 이해하고 공감하는데 관심과 능력이 있어요.",
-    "match" : "ENFJ, ESTJ"
+    "match1" : "샴페인",
+    "match2" : "버번 위스키",
+    "match1Img" : "./result/champagne.svg",
+    "match2Img" : "./result/whiskey.svg"
   },
   "ENTJ": {
     "liquor": "버번 위스키",
@@ -47,67 +59,88 @@
     "content2" : "오래 숙성되어 완성도있는 품질을 만들기 위해 꾸준히 노력해요.",
     "content3" : "새로운 도전을 두려워하지 않아요.",
     "content4" : "강인한 성격으로 어려운 상황에서도 대담하게 행동해요.",
-    "match" : "INFP, INTP"
+    "match1" : "논알콜",
+    "match2" : "고량주",
+    "match1Img" : "./result/nonalcoholic.svg",
+    "match2Img" : "./result/kaoliangwine.svg"
   },
   "INTJ": {
     "liquor": "피트 위스키",
-    "text": "위스키",
+    "text": "호불호 속 강력한 매력을 가진",
     "img" : "./result/petewhiskey.svg",
     "content1" : "자신의 능력과 결정에 확신을 가지고 어려운 상황에서도 차분하게 대처해요.",
     "content2" : "독립적이고 혼자만의 시간을 즐겨요.",
     "content3" : "비판적이고 분석적인 사고를 해요.",
     "content4" : "독창적인 해결책을 찾는데 관심과 열정이 있어요.",
-    "match" : "ENFP, ENTP"
+    "match1" : "막걸리",
+    "match2" : "럼",
+    "match1Img" : "./result/makgeolli.svg",
+    "match2Img" : "./result/rum.svg"
   },
   "ENTP": {
     "liquor": "럼",
-    "text": "럼",
+    "text": "해적의 영혼을 담아낸",
     "img" : "./result/rum.svg",
     "content1" : "탐험을 즐기며 새로운 아이디어 시도와 실험을 좋아해요.",
     "content2" : "문제를 해결하고 복잡한 상황을 이해하는데 뛰어나요.",
     "content3" : "즉흥적이고 재미있는 대화로 즐거운 분위기를 만들어요.",
     "content4" : "다양한 주제에 관심을 갖고 논쟁과 토론을 즐겨요.",
-    "match" : "INFJ, INTJ"
+    "match1": "와인",
+    "match2": "피트 위스키",
+    "match1Img" : "./result/wine.svg",
+    "match2Img" : "./result/petewhiskey.svg"
   },
   "INTP": {
     "liquor": "고량주",
-    "text": "고량주",
+    "text": "강렬한 맛을 보여주는",
     "img" : "./result/kaoliangwine.svg",
     "content1" : "독특한 제조 방법과 강렬한 맛으로 독창적인 관점과 창의적인 아이디어를 좋아해요.",
     "content2" : "논리적 사고와 분석력을 가지고 있어요.",
     "content3" : "혼자만의 시간을 갖는게 좋아요.",
     "content4" : "강렬한 맛과 술의 강도로 인해 몇몇 사람들에게는 부담스러움을 줄 수 있어요.",
-    "match" : "ENFJ, ESTJ"
+    "match1" : "럼",
+    "match2" : "셰리 위스키",
+    "match1Img" : "./result/rum.svg",
+    "match2Img" : "./result/sherrywhiskey.svg"
   },
   "ESFJ": {
     "liquor": "샴페인",
-    "text": "샴페인",
-    "img" : "./result/champangne.svg",
+    "text": "주류계의 분위기 메이커",
+    "img" : "./result/champagne.svg",
     "content1" : "활동, 모임 등 다른 사람들과 함께하는 것을 좋아해요.",
     "content2" : "사람들에게 긍정적인 관심을 받는 것을 즐겨요.",
     "content3" : "따뜻하고 다른 사람들에 대한 배려심이 깊어요.",
     "content4" : "즐겁고 쾌할한 성격으로 주변을 환하고 긍정적인 분위기로 만들어요.",
-    "match" : "ISFP, ISTP"
+    "match1" : "소주",
+    "match2" : "라거",
+    "match1Img" : "./result/soju.svg",
+    "match2Img" : "./result/lager.svg"
   },
   "ISFJ": {
     "liquor": "소주",
-    "text": "소주",
+    "text": "친근한 매력에 빠져드는",
     "img" : "./result/soju.svg",
     "contnet1" : "따뜻하고 정겨운 분위기를 만들어요.",
     "content2" : "봉사적이고 타인을 돕고자 하는 배려심이 깊어요.",
     "content3" : "말보다는 행동으로 감정을 표현하고, 부드럽고 깔끔하게 일을 처리해요.",
     "content4" : "신뢰성과 정직성을 중요시해요.",
-    "match" : "ESFP, ESTP"
+    "match1" : "에일",
+    "match2" : "흑맥주",
+    "match1Img" : "./result/yaleBeer.svg",
+    "match2Img" : "./result/blackbeer.svg"
   },
   "ESFP": {
-    "liquor": "에일 맥주",
+    "liquor": "에일",
     "text": "밝고 긍정적인 향을 내는",
     "img" : "./result/yaleBeer.svg",
     "content1" : "주변 사람들과 함께 활동하며 즐기는 것을 즐겨요.",
     "content2" : "자연스러운 풍미로 긍정적인 영향을 주며 사람들의 관심을 받아요.",
     "content3" : "감정 표현이 풍부하고 감수성이 뛰어나요.",
     "content4" : "경험을 바탕으로 새로운 자극과 재미를 찾아요.",
-    "match" : "ISFJ, ISTJ"
+    "match1" : "소주",
+    "match2" : "사케",
+    "match1Img" : "./result/soju.svg",
+    "match2Img" : "./result/sake.svg"
   },
   "ISFP": {
     "liquor": "브랜디",
@@ -117,17 +150,23 @@
     "content2" : "자신만의 방식으로 삶을 즐기는 자유로운 영혼이에요.",
     "content3" : "정교한 제조 과정으로 현실적이면서도 감성적인 논리로 문제를 해결해요.",
     "content4" : "자신만의 고요한 시간을 즐기는 것이 굉장히 중요해요.",
-    "match" : "ESFJ, ESTJ, ESTP"
+    "match1" : "샴페인",
+    "match2" : "셰리 위스키",
+    "match1Img" : "./result/champagne.svg",
+    "match2Img" : "./result/sherrywhiskey.svg"
   },
   "ESTJ": {
-    "liquor": "쉐리 위스키",
-    "text": "위스키",
+    "liquor": "셰리 위스키",
+    "text": "믿고 먹는 안정적인 매력",
     "img" : "./result/sherrywhiskey.svg",
     "content1" : "전통적인 제조 방법을 따르며 안정적인 환경과 구조를 좋아해요.",
     "content2" : "실용적이고 현실적인 사고를 가지고 있어요.",
     "content3" : "오랜 시간과 노력을 투자하여 책임감있게 완성하는 것을 좋아해요.",
     "content4" : "사람들과의 교류를 통해 에너지를 얻어요.",
-    "match" : "ISFP, ISTP"
+    "match1" : "브랜디",
+    "match2" : "라거",
+    "match1Img" : "./result/brandy.svg",
+    "match2Img" : "./result/lager.svg"
   },
   "ISTJ": {
     "liquor": "사케",
@@ -137,26 +176,35 @@
     "contnet2" : "정교하고 체계적인 제조 과정을 통해 체계적이고 계획적인 것을 좋아해요.",
     "content3" : "현실적이고 근거가 있는 결정을 좋아해요.",
     "content4" : "신중하고 꼼꼼해요.",
-    "match" : "ESFP, ESTP"
+    "match1" : "에일",
+    "match2" : "흑맥주",
+    "match1Img" : "./result/yaleBeer.svg",
+    "match2Img" : "./result/blackbeer.svg"
   },
   "ESTP": {
     "liquor": "흑맥주",
-    "text": "흑맥주",
+    "text": "더 진한 매력을 가진",
     "img" : "./result/blackbeer.svg",
     "content1" : "더 진한 맛과 향처럼 적극적이고 강렬한 성격이에요.",
     "content2" : "모험적인 성향으로 즉흥적이고 활동적인 삶을 좋아해요.",
     "content3" : "사람들과 함께 어울리며 즐거운 분위기를 만들어요.",
     "content4" : "현실적이고 놀리적인 성향을 가지고 있어요.",
-    "match" : "ISFJ, ISTJ"
+    "match1" : "소주",
+    "match2" : "사케",
+    "match1Img" : "./result/soju.svg",
+    "match2Img" : "./result/sake.svg"
   },
   "ISTP": {
     "liquor": "라거",
-    "text": "라거",
+    "text": "깔끔하고 실용적인게 좋아",
     "img" : "./result/lager.svg",
     "content1" : "간단하면서도 깔끔한 맛으로 실용적이고 현실적인 성향이에요.",
     "content2" : "자신만의 시간과 공간을 존중하는 성향이에요.",
     "content3" : "새로운 경험과 모험에 개방적이에요.",
     "content4" : "복잡한 문제를 객관적으로 분석하고 효과적인 해결책을 찾는데 능숙해요.",
-    "match" : "ESFJ, ESTJ"
+    "match1" : "샴페인",
+    "match2" : "셰리 위스키",
+    "match1Img" : "./result/champagne.svg",
+    "match2Img" : "./result/sherrywhiskey.svg"
   }
 }

@@ -2,7 +2,7 @@ import results from './results.json';
 import {
   AppButton,
   BottomBox, ButtonWrapper, Container,
-  InstaButton,
+  InstaButton, MatchBox, MatchImg, MatchText, MatchTitle, MatchWrapper,
   ResultBox,
   ResultImg,
   ResultSubText,
@@ -36,6 +36,10 @@ const MyComponent = ({ data }) => {
   const mbtiContent2 = results[finalMBTI].content2;
   const mbtiContent3 = results[finalMBTI].content3;
   const mbtiContent4 = results[finalMBTI].content4;
+  const mbtiMatch1Liquor = results[finalMBTI].match1;
+  const mbtiMatch2Liquor = results[finalMBTI].match2;
+  const mbtiMatch1Img = results[finalMBTI].match1Img;
+  const mbtiMatch2Img = results[finalMBTI].match2Img;
 
 
   return (
@@ -65,12 +69,28 @@ const MyComponent = ({ data }) => {
           • {mbtiContent4}
         </div>
       </ResultBox>
-        <ResultBox>
-
-        </ResultBox>
+        <MatchBox>
+          <MatchTitle>
+          나랑 찰떡 궁합 친구들
+          </MatchTitle>
+          <MatchWrapper>
+            <div>
+              <MatchImg src={mbtiMatch1Img} alt="img"/>
+              <MatchText>
+                {mbtiMatch1Liquor}
+              </MatchText>
+            </div>
+            <div>
+              <MatchImg src={mbtiMatch2Img} alt="img"/>
+              <MatchText>
+                {mbtiMatch2Liquor}
+              </MatchText>
+            </div>
+          </MatchWrapper>
+        </MatchBox>
       <BottomBox>
         <div>
-          이 술에 대해 더 알아보고 싶어요!
+         찐 MBTI에 대해 궁금하다면?
         </div>
         <ButtonWrapper>
           <AppButton>

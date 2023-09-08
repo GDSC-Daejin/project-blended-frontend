@@ -62,6 +62,50 @@ export const ResultBox = styled.div`
   text-align: left;
 `;
 
+export const MatchBox = styled.div`
+  width: 310px;
+  height: fit-content;
+  background: #F8F8F8;
+  border-radius: 12px;
+  margin: 15px auto;
+  padding: 35px 45px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--800);
+  line-height: 170%;
+`;
+
+export const MatchWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 47px;
+`;
+
+export const MatchTitle = styled.div`
+  color: var(--Gray800, #2A2A2A);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+`;
+
+export const MatchText = styled.div`
+  color: var(--Gray900, #111);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+`;
+
+export const MatchImg = styled.img`
+  width: 100px;
+  height: 134px;
+`
+
 export const BottomBox = styled.div`
   position: fixed;
   height: 200px;
