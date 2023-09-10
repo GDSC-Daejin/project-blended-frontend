@@ -56,17 +56,17 @@ const MyComponent = ({ data }) => {
       </ResultText>
       <ResultImg src={mbtiImg} alt="img"/>
       <ResultBox>
-        <div>
-          • {mbtiContent1}
+        <div  style={{display: 'flex'}}>
+          <div style={{marginRight: '5px'}}>•</div>{mbtiContent1}
         </div>
-        <div>
-          • {mbtiContent2}
+        <div  style={{display: 'flex'}}>
+          <div style={{marginRight: '5px'}}>•</div>{mbtiContent2}
         </div>
-        <div>
-          • {mbtiContent3}
+        <div  style={{display: 'flex'}}>
+          <div style={{marginRight: '5px'}}>•</div>{mbtiContent3}
         </div>
-        <div>
-          • {mbtiContent4}
+        <div  style={{display: 'flex'}}>
+          <div style={{marginRight: '5px'}}>•</div>{mbtiContent4}
         </div>
       </ResultBox>
         <MatchBox>

@@ -34,7 +34,7 @@ export const AnswerBox = styled.div`
   background-color: var(--200);
   margin: 20px auto;
   border-radius: 20px;
-  width: 350px;
+  width: 370px;
   height: 140px;
   display: flex;
   justify-content: center;

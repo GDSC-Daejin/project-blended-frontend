@@ -26,7 +26,7 @@ export const ResultTitle = styled.div`
   font-weight: 500;
   font-size: 14px;
   color: #777777;
-  margin-top: -30px;
+  margin-top: -60px;
 `;
 
 export const ResultSubText = styled.div`
@@ -107,7 +107,7 @@ export const MatchImg = styled.img`
 `
 
 export const BottomBox = styled.div`
-  position: fixed;
+  //position: fixed;
   height: 200px;
   width: 720px;
   bottom: 0;

@@ -49,7 +49,7 @@
     "match1" : "샴페인",
     "match2" : "버번 위스키",
     "match1Img" : "./result/champagne.svg",
-    "match2Img" : "./result/whiskey.svg"
+    "match2Img" : "./result/bourbonwhiskey.svg"
   },
   "ENTJ": {
     "liquor": "버번 위스키",
