@@ -108,6 +108,7 @@ export const MatchImg = styled.img`
 
 export const BottomBox = styled.div`
   //position: fixed;
+  margin: 50px 0 0 0;
   height: 200px;
   width: 720px;
   bottom: 0;

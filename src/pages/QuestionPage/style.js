@@ -25,6 +25,7 @@ export const QuestionText = styled.div`
   color: var(--900);
   line-height: 27px;
   margin: 70px auto 70px auto;
+  word-break: keep-all;
 `;
 export const AnswerBoxWrapper = styled.div`
   margin-bottom: 229px;

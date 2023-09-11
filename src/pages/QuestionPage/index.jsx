@@ -86,7 +86,8 @@ const MyComponent = () => {
                 <ProgressBar width={((questionNum + 1) / (testData.length + 1)) * 100 + '%'} />
               </ProgressBarWrapper>
               <Content>
-                <QuestionText>{testData[questionNum].question}<br/>
+                <QuestionText>{testData[questionNum].question}
+                  {/*<br/>*/}
                   {testData[questionNum].question2}</QuestionText>
                 <AnswerBoxWrapper>
                   <AnswerBox onClick={answerClick1}>
