@@ -3,7 +3,7 @@
     "id": 1,
     "option": "FT",
     "question": "집들이 선물로 친구가 구하기 힘든 한정판 술을 사왔다,",
-    "question2": "이때 당신은?",
+    "question2": " 이때 당신은?",
     "answer": [
       {
         "type": "F",
@@ -179,7 +179,7 @@
     "id": 12,
     "option": "NS",
     "question": "술자리에서 친구가 묻는다.",
-    "question2": "'말이 바에 들어가서 바텐더에게 뭐라고 했게?'",
+    "question2": " '말이 바에 들어가서 바텐더에게 뭐라고 했게?'",
     "answer": [
       {
         "type": "N",
