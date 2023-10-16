@@ -80,7 +80,7 @@ export const MatchWrapper = styled.div`
   display: flex;
   margin: 0 auto;
   justify-content: center;
-  gap: 47px;
+  gap: 30px;
 `;
 
 export const MatchTitle = styled.div`
@@ -102,8 +102,10 @@ export const MatchText = styled.div`
 `;
 
 export const MatchImg = styled.img`
-  width: 100px;
-  height: 134px;
+  //width: 100px;
+  //height: 134px;
+  width: 150px;
+  height: 201px;
 `
 
 export const BottomBox = styled.div`

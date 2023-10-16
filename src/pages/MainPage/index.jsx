@@ -15,6 +15,7 @@ import Logo from '/assets/blended_logo.svg';
 import MbtiMain from '/assets/mbtiMain_img.png';
 import ogImg from '/assets/og_img.jpg';
 import { Link } from 'react-router-dom';
+import AdSense from'react-adsense';
 
 
 const MyComponent = () => {
