@@ -16,6 +16,7 @@ import MbtiMain from '/assets/mbtiMain_img.png';
 import ogImg from '/assets/og_img.jpg';
 import { Link } from 'react-router-dom';
 import AdSense from'react-adsense';
+import DisplayAds from './displayAds.jsx';
 
 
 const MyComponent = () => {
@@ -37,7 +38,9 @@ const MyComponent = () => {
             window.location.href = '/question';
           }
           }>시작하기!</ContentButton>
-          <AdBox />
+          {/*<AdBox>*/}
+            <DisplayAds />
+          {/*</AdBox>*/}
         </Content>
       </Wrapper>
     </Container>

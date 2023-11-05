@@ -96,9 +96,9 @@ const MyComponent = ({ data }) => {
           <AppButton>
             블렌디드에서 구경하기
           </AppButton>
-          <InstaButton>
-            인스타그램 스토리 공유
-          </InstaButton>
+          {/*<InstaButton>*/}
+          {/*  인스타그램 스토리 공유*/}
+          {/*</InstaButton>*/}
         </ButtonWrapper>
       </BottomBox>
       </Wrapper>

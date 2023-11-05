@@ -144,7 +144,7 @@ export const AppButton = styled.button`
   border-radius: 12px;
   display: block;
   border-style: none;
-  margin: 10px auto 30px auto;
+  margin: 15px auto 30px auto;
   font-family: Pretendard,sans-serif;
   font-size: 16px;
   font-weight: 500;
