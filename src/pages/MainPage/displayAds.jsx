@@ -11,7 +11,7 @@ const DisplayAds = () => {
     }
   },[])
   return (
-    <AdBox>
+    <div>
       <ins className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-client="ca-pub-7346924817592498"
@@ -19,7 +19,7 @@ const DisplayAds = () => {
         data-ad-format="auto"
         data-full-width-responsive="true">
       </ins>
-    </AdBox>
+    </div>
   );
 };
 
@@ -27,7 +27,7 @@ export default DisplayAds;
 
 export const AdBox = styled.div`
   margin: 0 auto 0 auto;
-  background-color: var(--200);
+  //background-color: var(--200);
   width: 100%;
   height: 100px;
   @media all and (min-width: 720px) {
